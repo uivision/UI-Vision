@@ -11,16 +11,22 @@
 
 
 ## Introduction
-UI-Vision is a comprehensive, license-permissive benchmark for offline, fine-grained evaluation of computer use agents in real-world desktop environments across 83 software applications spanning 6 categories. The benchmark includes:
+UI-Vision is a comprehensive, license-permissive benchmark for offline, fine-grained evaluation of computer use agents in real-world desktop environments across 83 software applications spanning 6 categories. The benchmark includes three tasks:
 
-- Dense, high-quality annotations of human demonstrations
-- Bounding boxes, UI labels, and action trajectories across 83 software applications
-- Three fine-to-coarse grained tasks:
-  - Element Grounding
-  - Layout Grounding  
-  - Action Prediction
+- Element Grounding
+- Layout Grounding  
+- Action Prediction
 
 The benchmark aims to advance the development of more capable agents for real-world desktop tasks.
+
+## Repository Structure
+```
+├── eval/
+│   └── grounding/   # Scripts for element and layout grounding evaluation
+│   └── action_prediction/   # Scripts for action prediction evaluation
+├── .gitignore          # Git ignore file
+└── README.md           # Project documentation
+```
 
 ## Citation
 
