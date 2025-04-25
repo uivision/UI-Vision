@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python distribution/packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development settings
+.env
+.env.local
+
+# Log files
+*.log
+
+# Model checkpoints and saved results
+*.pth
+.DS_Store
