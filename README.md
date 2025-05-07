@@ -2,12 +2,13 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2503.15661-b31b1b.svg)](https://arxiv.org/abs/2503.15661)
 [![Website](https://img.shields.io/badge/Website-UI--Vision-blue)](https://uivision.github.io/)
-[![Dataset](https://img.shields.io/badge/Dataset-Coming%20Soon-green)](#)
+[![Dataset](https://img.shields.io/badge/🤗%20Dataset-UI--Vision-yellow)](https://huggingface.co/datasets/ServiceNow/ui-vision)
 
 ## 📢 News
-- **[Coming Soon]** Dataset and code release
-- **[19 March 2024]** Project website is live at [uivision.github.io](https://uivision.github.io/)
-- **[19 March 2024]** UI-Vision paper is available on [arXiv](https://arxiv.org/abs/2503.15661) 🔥 🔥 
+- **[7 May 2025]** UI-Vision [grounding dataset](https://huggingface.co/datasets/ServiceNow/ui-vision) and evaluation code released
+- **[1 May 2025]** UI-Vision got accepted to ICML 2025 🔥
+- **[19 March 2025]** Project website is live at [uivision.github.io](https://uivision.github.io/)
+- **[19 March 2025]** UI-Vision paper is available on [arXiv](https://arxiv.org/abs/2503.15661) 🔥 🔥 
 
 
 ## Introduction
