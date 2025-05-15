@@ -5,7 +5,7 @@
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-UI--Vision-yellow)](https://huggingface.co/datasets/ServiceNow/ui-vision)
 
 ## 📢 News
-- **[7 May 2025]** UI-Vision [grounding dataset](https://huggingface.co/datasets/ServiceNow/ui-vision) (Element and Layout Grounding) and evaluation code released
+- **[15 May 2025]** UI-Vision [grounding dataset](https://huggingface.co/datasets/ServiceNow/ui-vision) (Element and Layout Grounding) and evaluation code released
 - **[1 May 2025]** UI-Vision got accepted to ICML 2025 🔥
 - **[19 March 2025]** Project website is live at [uivision.github.io](https://uivision.github.io/)
 - **[19 March 2025]** UI-Vision paper is available on [arXiv](https://arxiv.org/abs/2503.15661) 🔥 🔥 
