@@ -7,7 +7,7 @@ import os
 from tqdm import tqdm
 import logging
 
-# os.environ['HF_HOME'] = '~/.cache/huggingface'
+os.environ['HF_HOME'] = '/mnt/stardoc/hf_cache_gui/'
 
 # For loading some models HF token needs to be set or you need to be logged in to HF
 # os.environ["HF_TOKEN"] = "<HF_TOKEN>"
@@ -16,10 +16,7 @@ ANNOTATOR_IMAGE_SIZE = (800, 700)
 
 logging.basicConfig(level=logging.INFO)
 torch.manual_seed(114514)
-"""
-    
-python eval_uivision.py --model_type tongui --uivision_imgs ../../data/UI-Vision/images --uivision_test_file ../../data/UI-Vision/annotations/element_grounding/element_grounding_basic.json --task element --log_path ./element_grounding_basic_tongui.json
-"""
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_type', type=str, required=True)
