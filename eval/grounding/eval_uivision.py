@@ -126,6 +126,10 @@ def build_model(args):
         from models.aguvis import AguvisModel
         model = AguvisModel()
         model.load_model()
+    elif model_type == "tongui":
+        from models.tongui import TongUIModel
+        model = TongUIModel()
+        model.load_model(model_name_or_path=model_name_or_path)
     else:
         raise ValueError(f"Unsupported model type {model_type}.")
     model.set_generation_config(temperature=0, max_new_tokens=256)
